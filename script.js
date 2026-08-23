@@ -1,6 +1,6 @@
 // 1. Укажи дату вашего знакомства или начала отношений (Год, Месяц - 1, День)
 // Внимание: месяцы в JS считаются с 0 (Январь = 0, Февраль = 1, ..., Декабрь = 11)
-const startDate = new Date(2026, 1, 1); 
+const startDate = new Date(2026, 0, 1); 
 
 function updateCounter() {
     const today = new Date();
