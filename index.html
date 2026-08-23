@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для тебя ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <h1>Наше маленькое пространство</h1>
+        <p class="subtitle">Сайт просто так, без повода, потому что ты лучшая ✨</p>
+        
+        <div class="counter-box">
+            <p>Мы вместе уже</p>
+            <span id="days-count">0</span>
+            <p>дней!</p>
+        </div>
+    </section>
+
+    <!-- Секция Фото -->
+    <section class="gallery">
+        <h2>Наши моменты 📸</h2>
+        <div class="cards-grid">
+            <div class="photo-card">
+                <img src="IMG_3604.jpg">
+                <p>Тута мы вместе</p>
+            </div>
+            <div class="photo-card">
+                <img src="IMG_2046.jpg">
+                <p>Тута мы гуляем</p>
+            </div>
+            <div class="photo-card">
+                <img src="IMG_3418.jpg">
+                <p>А тут просто очень красивая Ты ❤️</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция Причин (10 интерактивных карточек) -->
+    <section class="reasons">
+        <h2>Почему я тебя люблю 💌</h2>
+        <p class="reasons-hint">Нажимай на карточки, чтобы открыть секреты! (Некоторые под замком 🔒)</p>
+        
+        <div class="reasons-grid">
+            <!-- 1 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>01</h3>
+                        <span>💌</span>
+                        <p>Нажми меня</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Твоя улыбка освещает даже самый пасмурный день.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>02</h3>
+                        <span>💌</span>
+                        <p>Нажми меня</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>С тобой можно быть настоящим и смеяться от души.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 (СЕКРЕТНАЯ) -->
+            <div class="flip-card locked" data-question="Где был наш первый поцелуйчик?" data-answer="Возле механического">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>03</h3>
+                        <span>🔒</span>
+                        <p>Секрет (Нужен ответ)</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Ты умеешь поднимать настроение одной лишь обнимашкой!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>04</h3>
+                        <span>💌</span>
+                        <p>Нажми меня</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Твой голос - самый уютный звук на свете.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>05</h3>
+                        <span>💌</span>
+                        <p>Нажми меня</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Ты всегда поддерживаешь меня во всём.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6 (СЕКРЕТНАЯ) -->
+            <div class="flip-card locked" data-question="Какого числа мы поцеловались?" data-answer="4 Декабря">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>06</h3>
+                        <span>🔒</span>
+                        <p>Секрет (Нужен ответ)</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Рядом с тобой любой обычный день превращается в праздник.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>07</h3>
+                        <span>💌</span>
+                        <p>Нажми меня</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>У тебя невероятно красивые глаза, в которых можно утонуть.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>08</h3>
+                        <span>💌</span>
+                        <p>Нажми меня</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Ты заботишься обо мне так, как никто другой.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9 (СЕКРЕТНАЯ) -->
+            <div class="flip-card locked" data-question="Какое ласковое прозвище я тебе чаще всего говорю?" data-answer="Киця">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>09</h3>
+                        <span>🔒</span>
+                        <p>Секрет (Нужен ответ)</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Потому что ты - моё самое главное счастье!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>10</h3>
+                        <span>💌</span>
+                        <p>Нажми меня</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Я люблю тебя просто за то, что ты есть ❤️</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Интерактивная кнопка -->
+    <section class="interactive">
+        <h2>Тебе подарок! 🎁</h2>
+        <button id="hugBtn">Отправить обнимашку</button>
+        <div id="message" class="hidden-message">Жди скоро от меня сюрприз:3</div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
